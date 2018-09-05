@@ -1,3 +1,9 @@
+# reference
+This project refers to https://github.com/Qidian213/deep_sort_yolov3. The camera and the video interface are offerd in this version. You can establish a folder model_data to put the pretrainded model and the the testing video.  
+If you want to test a video, please run the python demo.py.
+If you want to use the camera ,please run the python demo.py --read_type=camera
+
+
 
 # Introduction
 Thanks for these projects, this work now is support tiny_yolo v3 but only for test, if you want to train you can either train a model in darknet or in the second following works. It also can tracks many objects in coco classes, so please note to modify the classes in yolo.py. besides, you also can use camera for testing.
